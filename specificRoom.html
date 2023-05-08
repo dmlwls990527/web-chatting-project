@@ -1,0 +1,31 @@
+<!--
+    specificRoom.html : specific chatting room
+    shows chat logs, can chat new message,
+    add new participants
+    2023.4.9 park jong ki
+-->
+
+<!DOCTYPE html>
+<head>
+    <title> Chatroom </title>
+    <script src="./specificRoom.js"></script>
+</head>
+<body>
+    <h2 id="roomName"></h2>
+    <ul id="participants"></ul>
+    <ul id="chatHistory"></ul>
+
+    <div>
+        <label for="chat-message"> Chat message : </label>
+        <input type="text" id="chat-message" placeholder="Enter message..." size="100">
+
+        <button id="send-message"> Send </button>
+    </div>
+
+    <div>
+        <label for="addParticipant"> Add participant </label>
+        <input type="text" id="addParticipant" placeholder="participant name" size="100">
+
+        <button id="add"> Add </button>
+    </div>
+</body>
